@@ -3,8 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <title>Contact Me</title>
+    <link rel="stylesheet" href="../contactMe.css">
 </head>
-<body>
+    <body>
+    <div>
+        <header>
+            <h1>Drop me a message! Send a compliment! Just fill out the form below: </h1>
+        </header>
+    </div>
+    <div>
+        <form>
+        <fieldset id="fieldset">
+            <label for="fname">First Name:</label> <br>
+            <input type="text" id="fname"/> <br>
 
-</body>
+            <label for="lname">Last Name: </label> <br>
+            <input type="text" id="lname"/> <br>
+
+            <label for="email">Email: </label> <br>
+            <input type="email" id="email"/> <br>
+            <label for="text"> Text Area</label><br>
+            <textarea id="text" placeholder="Just keep swimming- Dory" cols="40" maxlength="250"></textarea>
+        </fieldset>
+        </form>
+        <footer>
+            <h3>Designed by Jordy</h3>
+        </footer>
+    </div>
+    </body>
 </html>

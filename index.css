@@ -1,5 +1,7 @@
 body{
     background-color: lightsalmon;
+    font-weight: bold;
+
 }
 #picture{
     position: relative;
@@ -12,31 +14,65 @@ body{
 }
 header{
     text-align: center;
+    font-family: Chilanka;
 }
 #sectiontwo{
     text-align: center;
+    font-family: Chilanka;
+    margin-bottom: 80px;
 }
 .sectionthree{
     text-align: center;
+    font-family: Chilanka;
+    margin-bottom: 40px;
+    margin-right: 500px;
 }
 .list{
     text-align: center;
     position: relative;
     left:700px;
     width:100px;
+    font-family: Chilanka;
+    position: relative;
+    bottom:90px
 }
-h2{
+h1{
     text-align: center;
+    font-family: Chilanka;
 }
 table{
     text-align: center;
     position: relative;
-    left:700px
+    left:700px;
+    font-family: Chilanka;
+    margin-bottom: 40px;
 }
 #footer{
     text-align: center;
+    font-family: Chilanka;
 }
 button{
     position: relative;
-    left:720px
+    left:720px;
+    font-family: Chilanka;
+    border-radius: 30px;
+    margin-bottom: 40px;
+}
+h3{
+    text-align: center;
+    font-family: Chilanka;
+}
+#learn{
+    float:left;
+    border-radius: 40%;
+    padding-left: 15px;
+    margin-top: 80px;
+    margin-left: 200px;
+    margin-right: 80px;
+}
+#s3header{
+    padding-bottom: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    position: marker;
 }
